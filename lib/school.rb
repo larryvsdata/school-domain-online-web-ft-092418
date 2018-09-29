@@ -1,8 +1,9 @@
 class School
-  attr_accessor :author, :page_count, :genre
+  attr_accessor :school
  
+ roster={}
   def initialize(title)
-    @title = title
+    @school = title
   end
  
 
