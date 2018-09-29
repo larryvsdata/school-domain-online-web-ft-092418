@@ -6,6 +6,7 @@ class School
     @name = name
     @roster={}
   end
+  
  def add_student(name,grade)
    
    if @roster.keys.include?(grade)
@@ -17,7 +18,8 @@ class School
  end 
 
 def grade(number)
-@roster[grade]
+return @roster[grade]
 end
+
  
 end
