@@ -1,4 +1,4 @@
-class Book
+class school
   attr_accessor :author, :page_count, :genre
  
   def initialize(title)
