@@ -18,7 +18,7 @@ class School
  end 
 
 def grade(number)
-return @roster[grade]
+return @roster[number]
 end
 
  
