@@ -21,5 +21,14 @@ def grade(number)
 return @roster[number]
 end
 
+def sort 
+
+my_keys=@roster.keys
+
+my_keys
+
+
+end
+
  
 end
