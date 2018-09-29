@@ -25,7 +25,9 @@ def sort
 
 my_keys=@roster.keys
 
-my_keys
+my_keys.each{|k | @roster[k]= @roster[k].sort}
+
+@roster
 
 
 end
